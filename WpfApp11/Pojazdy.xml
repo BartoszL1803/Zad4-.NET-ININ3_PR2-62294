@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Pojazdy>
+
+	<Kategorie>
+		<Nazwa>Osobowe</Nazwa>
+		
+		<Marka>
+			<Nazwa>Renault</Nazwa>
+			<Koncern>Renault-Nissan Aliance</Koncern>
+			<RokPowstania>1899</RokPowstania>
+			<KrajProdukcji>Francja</KrajProdukcji>
+
+			<Model id="1">
+				<Nazwa>Megane</Nazwa>
+				<RokProdukcji>2011</RokProdukcji>
+				<PojemnośćSilnika>1599</PojemnośćSilnika>
+				<RodzajNapędu>Przód</RodzajNapędu>
+			</Model>
+
+			<Model id="2">
+				<Nazwa>Clio</Nazwa>
+				<RokProdukcji>2016</RokProdukcji>
+				<PojemnośćSilnika>999</PojemnośćSilnika>
+				<RodzajNapędu>Przód</RodzajNapędu>
+			</Model>
+
+		</Marka>
+		
+		<Marka>
+			<Nazwa>BMW</Nazwa>
+			<Koncern>BMW Group</Koncern>
+			<RokPowstania>1916</RokPowstania>
+			<KrajProdukcji>Niemcy</KrajProdukcji>
+
+			<Model id="3">
+				<Nazwa>M2</Nazwa>
+				<RokProdukcji>2020</RokProdukcji>
+				<PojemnośćSilnika>3999</PojemnośćSilnika>
+				<RodzajNapędu>Tył</RodzajNapędu>
+			</Model>
+
+			<Model id="4">
+				<Nazwa>M3</Nazwa>
+				<RokProdukcji>1995</RokProdukcji>
+				<PojemnośćSilnika>1999</PojemnośćSilnika>
+				<RodzajNapędu>Tył</RodzajNapędu>
+			</Model>
+
+		</Marka>
+		
+	</Kategorie>
+
+	<Kategorie>
+		<Nazwa>Ciężarowe</Nazwa>
+		
+		<Marka>
+			<Nazwa>Scania</Nazwa>
+			<Koncern>Volkswagen AG</Koncern>
+			<RokPowstania>1891</RokPowstania>
+			<KrajProdukcji>Szwecja</KrajProdukcji>
+
+			<Model id="5">
+				<Nazwa>Seria R</Nazwa>
+				<RokProdukcji>2017</RokProdukcji>
+				<PojemnośćSilnika>16999</PojemnośćSilnika>
+				<RodzajNapędu>Na wszystkie koła</RodzajNapędu>
+			</Model>
+
+			<Model id="6">
+				<Nazwa>Irzar</Nazwa>
+				<RokProdukcji>2006</RokProdukcji>
+				<PojemnośćSilnika>10999</PojemnośćSilnika>
+				<RodzajNapędu>Na wszystkie koła</RodzajNapędu>
+			</Model>
+
+		</Marka>
+	</Kategorie>
+
+	<Kategorie>
+		<Nazwa>Motocykle</Nazwa>
+		
+		<Marka>
+			<Nazwa>BMW</Nazwa>
+			<Koncern>BMW Group</Koncern>
+			<RokPowstania>1916</RokPowstania>
+			<KrajProdukcji>Niemcy</KrajProdukcji>
+
+			<Model id="7">
+				<Nazwa>R 1250 RS</Nazwa>
+				<RokProdukcji>2022</RokProdukcji>
+				<PojemnośćSilnika>1499</PojemnośćSilnika>
+				<RodzajNapędu>Tył</RodzajNapędu>
+			</Model>
+
+			<Model id="8">
+				<Nazwa>K 1600 B</Nazwa>
+				<RokProdukcji>2019</RokProdukcji>
+				<PojemnośćSilnika>1599</PojemnośćSilnika>
+				<RodzajNapędu>Tył</RodzajNapędu>
+			</Model>
+
+		</Marka>
+		
+		<Marka>
+			<Nazwa>Suzuki</Nazwa>
+			<Koncern>Suzuki Motor Corporation</Koncern>
+			<RokPowstania>1909</RokPowstania>
+			<KrajProdukcji>Japonia</KrajProdukcji>
+
+			<Model id="9">
+				<Nazwa>Hayabusa</Nazwa>
+				<RokProdukcji>2022</RokProdukcji>
+				<PojemnośćSilnika>1299</PojemnośćSilnika>
+				<RodzajNapędu>Tył</RodzajNapędu>
+			</Model>
+
+			<Model id="10">
+				<Nazwa>GSX-R</Nazwa>
+				<RokProdukcji>1995</RokProdukcji>
+				<PojemnośćSilnika>599</PojemnośćSilnika>
+				<RodzajNapędu>Tył</RodzajNapędu>
+			</Model>
+
+		</Marka>
+	</Kategorie>
+</Pojazdy>

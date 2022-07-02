@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApp11.OknoElementów"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp11"
+        mc:Ignorable="d"
+        
+        Title="OknoElementów"
+        Height="450"
+        Width="800">
+    <Grid>
+        <DataGrid Name="Modele"
+                  ItemsSource="{Binding XPath=Model}"
+                  AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nazwa"  Binding="{Binding XPath=Nazwa}"/>
+                <DataGridTextColumn Header="Rok produkcji" Binding="{Binding XPath=RokProdukcji}" />
+                <DataGridTextColumn Header="Pojemność silnika" Binding="{Binding XPath=PojemnośćSilnika}" />
+                <DataGridTextColumn Header="Rodzaj napędu" Binding="{Binding XPath=RodzajNapędu}" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
